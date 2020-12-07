@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ .PageTitle }} | Golang</title>
+	<style>
+		.container {text-align: center;}
+		ul {padding: 0;} 
+		li {margin-bottom: 10px} 
+		.done {color: green}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>{{.PageTitle}}</h1>
+		<ul>
+			{{range .Todos}}
+				{{if .Done}}
+					<li class="done">{{.Title}}</li>
+				{{else}}
+					<li>{{.Title}}</li>
+				{{end}}
+			{{end}}
+		</ul>
+	</div>
+</body>
+</html>
