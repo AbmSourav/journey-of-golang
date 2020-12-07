@@ -25,5 +25,5 @@ Step by step Go language learning...
 <br>
 
 ### Setup Info
-My GoPATH is `/home/username/go` <br>
-Project Path: `/home/username/go/src/github.com/gitUserName/golang-resourse`
+GoPATH `/home/username/go` <br>
+Project Directory Path: `/home/username/go/src/github.com/gitUserName/journey-of-golang`
