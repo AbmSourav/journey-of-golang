@@ -1,7 +1,8 @@
 ## Function Basics
 
 Functions call in a `main` function and `main` function calls automatically by Go compiler.
-Before declaration of `main` you need to bring `package main`. function declarations starts with `func` keyword.
+Before declaration of `main` you need to bring `package main`. function declarations starts with `func` keyword. <br>
+In Go, functions are first class. Go supports first class functions, higher-order functions, user-defined function types, function literals, closures, and multiple return values.
 
 ``` go
 package main
